@@ -20,11 +20,6 @@ h4 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-footer {
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
-}
-
 /* change hover color for links */
 a:hover {
     text-decoration: none;
@@ -85,6 +80,16 @@ button[type=submit]:active{
     background-image: url("ddown.svg");
 }
 
+/*color match to middle blue from jumbotron*/
+.jumboblue{
+    background-color: #3046C5 ;
+}
+
+.mainfoot {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
 /* to colormatch the lnks in the footer */
 .ftrlink{
     color:#3046C5
@@ -101,7 +106,7 @@ button[type=submit]:active{
     color: #3046C5;
 }
 
-/* to make the form look better (I changed the body font) */
+/* to make the submit form look better (I changed the body font) */
 .form-control{
     margin-top: 2.5%;
 }
@@ -119,6 +124,11 @@ button[type=submit]:active{
 /* styling for icons in footer */
 .ifoot:hover{
     transform: translateY(-1.5px);
+}
+
+/*header color for facts n figures tables*/
+.factsfigures{
+    background-color: #cec8ff96 ;
 }
 
 #areaCode{
