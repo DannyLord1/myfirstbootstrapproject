@@ -121,6 +121,12 @@ button[type=submit]:active{
     box-shadow: 0 10px 20px #00000042;
 }
 
+.navbarlogo{
+    margin-right: 1%;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
 /* styling for icons in footer */
 .ifoot:hover{
     transform: translateY(-1.5px);

@@ -19,10 +19,12 @@
 </head>
 
 <body>
-
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <a href="index.html"><img src="img/logo.png" class="img-fluid"/></a>
+                </div>
                 <div class="col">
                     <h1><a href="index.html" class="headerlink">NuCamp</a></h1>
                     <h2>a better way to camp</h2>
@@ -34,17 +36,19 @@
     <!--navigation bar-->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+            <a class="navbarlogo" href="index.html"><img src="img/logo.png" height="30" width= "30" /></a>
+            <button class="navbar-toggler ml-auto" type="button"                data-toggle="collapse" data-target="#nucampNavbar">
                 <!--nav dropdown button-->
                 <span class="navbar-togggler-icon"></span>
                 <img src="resources/wdown.svg">
             </button>
+
             <div class="collapse navbar-collapse" id="nucampNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg inav"></i>Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg inav"></i>About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg inav"></i>Sites</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg inav"></i>Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg inav"></i>Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -72,6 +76,7 @@
                     U.S.A.
                 </address>
             </div>
+
             <div class="col">
 				<a role="button" class="btn btn-link cbuttons"><i class="fa fa-phone cbuttons" href="+12065551234"></i>1-206-555-1234</a><br>
             	<a role="button" class="btn btn-link cbuttons"><i class="fa fa-envelope-o cbuttons" href="mailto:campsites@nucamp.co"></i> campsites@nucamp.co</a>
@@ -83,6 +88,7 @@
                 <h2>Send us your Feedback</h2>
                 <hr />
             </div>
+
             <div class="col-md-10">
                 <!--this is the feedback form-->
                 <form>
@@ -92,12 +98,14 @@
                             <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name"/>
                         </div>
                     </div>
+
                     <div class="form-group row">
                         <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name"/>
                         </div>
                     </div>
+
                     <div class="form-group row">
                         <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
                         <div class="col-5 col-md-3">
@@ -107,12 +115,14 @@
                             <input type="tel" class="form-control" name="telNum" placeholder="Telephone Number"/>
                         </div>
                     </div>
+
                     <div class="form-group row">
                         <label for="email" class="col-md-2 col-form-label">Email</label>
                         <div class="col-md-10">
                             <input type="email" class="form-control" id="email" name="email" placeholder="Email"/>
                         </div>
                     </div>
+
                     <div class="form-group row">
                         <div class="col offset-md-2">
                             May we contant you? 
@@ -126,12 +136,14 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="form-group row">
                         <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
                         <div class="col-md-10">
                             <textarea class="form-control" id="feedback" name="feedback" rows="8" placeholder="Enter Feedback Here"></textarea>
                         </div>
                     </div>
+
                     <div class="form-group row">
                         <div class="offset-md-2 col-md-10">
                             <button type="submit">Send Feedback</button>
@@ -154,6 +166,7 @@
                         <li><a class="ftrlink" href="#">Contact</a></li>
                     </ul>
                 </div>
+
                 <div class="col-6 col-sm-5 text-center">
                     <h5 class="ftrlink">Social</h5>
                     <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram ifoot"></i></a>
@@ -161,6 +174,7 @@
                     <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter ifoot"></i></a>
                     <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube ifoot"></i></a>
                 </div>
+
                 <div class="col-sm-4 text-center">
                     <a role="button" class="btn btn-link ftrlink"><i class="fa fa-phone" href="+12065551234"></i>1-206-555-1234</a><br>
                     <a role="button" class="btn btn-link ftrlink"><i class="fa fa-envelope-o" href="mailto:campsites@nucamp.co"></i> campsites@nucamp.co</a>
