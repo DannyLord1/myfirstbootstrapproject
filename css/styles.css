@@ -65,6 +65,7 @@ button[type=submit]:active{
     color: white;
 }
 
+
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge #d7e2f5;
@@ -135,6 +136,17 @@ button[type=submit]:active{
 /*header color for facts n figures tables*/
 .factsfigures{
     background-color: #cec8ff96 ;
+}
+
+.jumbobtn:hover{
+    transform: translateY(-2.5px);
+    box-shadow: 0 10px 20px #00000042;
+}
+
+.jumbobtn:active{
+    transform: translateY(-.5px);
+    box-shadow: 0 5px 10px #00000033;
+    border: none;
 }
 
 #areaCode{
