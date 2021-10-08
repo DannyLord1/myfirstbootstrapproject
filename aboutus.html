@@ -116,21 +116,63 @@
         <div class="row row-content">
             <div class="col">
                 <h3>Community Partners</h3>
-                <h4>Bootstrap Outfitters <small>: Outdoor Gear Specialists</small></h4>
-                <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
-                <h4>Git Out Expeditions <small>: Group Adventure Expeditions</small></h4>
-                <p class="d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of other adventurers!</p>
-                <h4>Mongo Fly Shop <small>: Your Neighborhood Fly Fishing Shop</small></h4>
-                <p class="d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.</p>
-                <h4>Node Outdoor Apparel <small>: Outdoor Clothes & Shoes</small></h4>
-                <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.</p>
+                <div id="accordion">
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a data-toggle="collapse" data-target="#tab1">Bootstrap Outfitters <small>: Outdoor Gear Specialists</small></a>
+                            </h4>
+                            <div class="collapse show" id="tab1" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a class="collapsed" data-toggle="collapse" data-target="#tab2"> Git Out Expeditions <small>: Group Adventure Expeditions</small></a>
+                            </h4>
+                            <div class="collapse" id="tab2" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of other adventurers!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a class="collapsed" data-toggle="collapse" data-target="#tab3">Mongo Fly Shop <small>: Your Neighborhood Fly Fishing Shop</small></a>
+                            </h4>
+                            <div class="collapse" id="tab3" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a class="collapsed" data-toggle="collapse" data-target="#tab4">Node Outdoor Apparel <small>: Outdoor Clothes & Shoes</small></a>
+                            </h4>
+                            <div class="collapse" id="tab4" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="row row-content">
+        <div class="row row-content d-flex justify-content-center">
             <div class="col-sm-9">
-            	<h2>Facts &amp; Figures</h2>
-            	<div class="table-responsive">
+            	<h2 class="text-center">Facts &amp; Figures</h2>
+            	<div class="table table-responsive">
                	    <table class="table table-striped">
 	                    <thead>
 	                        <tr class="jumboblue text-light">
