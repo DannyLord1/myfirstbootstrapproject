@@ -1,6 +1,19 @@
 body {
+    background: url("../img/bg3.jpg") no-repeat center center fixed;
+    background-size: cover;
     font-family:American Typewriter;
     font-size: 1.15em;
+    color: black;
+}
+
+#bg{
+    position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspect ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
 
 h1, h2, h3 {
@@ -19,7 +32,6 @@ header h2 {
 h4 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-
 
 /* change hover color for links */
 a:hover {
@@ -184,6 +196,10 @@ button[type=submit]:active{
     box-shadow: 0px 15px 15px #000000ce;
 }
 
+.imgshadow{
+    box-shadow:rgba(0, 0, 0, 0.411) 0 15px 15px;
+}
+
 #areaCode{
     margin-top: 7%;
 }
@@ -192,3 +208,17 @@ button[type=submit]:active{
 #abtus{
     padding-top: 1.5% ;
 }
+
+.siteTent{
+    background-color: rgb(35, 117, 24);
+    border-color: rgb(35, 117, 24);
+    color: white;
+}
+
+
+.siteRV{
+    background-color: rgb(101, 171, 236);
+    border-color: rgb(101, 171, 236);
+    color:white;
+}
+
