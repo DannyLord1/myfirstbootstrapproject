@@ -1,224 +1,188 @@
 body {
-    background: url("../img/bg3.jpg") no-repeat center center fixed;
-    background-size: cover;
-    font-family:American Typewriter;
-    font-size: 1.15em;
-    color: black;
-}
+  background: url("../img/bg3.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "American Typewriter", sans-serif;
+  font-size: 1.15em;
+  color: black; }
 
-#bg{
-    position: fixed; 
-  top: 0; 
-  left: 0; 
-	
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
   /* Preserve aspect ratio */
   min-width: 100%;
-  min-height: 100%;
-}
+  min-height: 100%; }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
-    
-}
+  font-family: "Lobster", cursive; }
 
 h2 {
-    color: #3046C5;
-}
+  color: #3046C5; }
 
 header h2 {
-    color: #CEC8FF;
-}
+  color: #CEC8FF; }
 
 h4 {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
 
 /* change hover color for links */
 a:hover {
-    text-decoration: none;
-    color:plum;
-    cursor: pointer;
-}
+  text-decoration: none;
+  color: plum;
+  cursor: pointer; }
 
 /* for the submit button */
-button[type=submit]{
-    background-color:#3046C5;
-    border: none;
-    border-radius: 5px;
-    font-family: "Lobster", cursive;
-    color: white;
-    padding: 1% 2%;
-    text-decoration: none;
-    margin: 0;
-    cursor: pointer;
-}
+button[type=submit] {
+  background-color: #3046C5;
+  border: none;
+  border-radius: 5px;
+  font-family: "Lobster", cursive;
+  color: white;
+  padding: 1% 2%;
+  text-decoration: none;
+  margin: 0;
+  cursor: pointer; }
 
 /* to make the submit button more interactive */
-button[type=submit]:hover{
-    transform: translateY(-3.5px);
-    box-shadow: 0 10px 20px #00000042;
-    background-color: plum;
-}
+button[type=submit]:hover {
+  transform: translateY(-3.5px);
+  box-shadow: 0 10px 20px #00000042;
+  background-color: plum; }
 
-button[type=submit]:active{
-    transform: translateY(-.5px);
-    box-shadow: 0 5px 10px #00000033;
-    border: none;
-    background-color: #3046C5;
-}
+button[type=submit]:active {
+  transform: translateY(-0.5px);
+  box-shadow: 0 5px 10px #00000033;
+  border: none;
+  background-color: #3046C5; }
 
 /* for the NuCamp home link in the jumbotron */
 .headerlink {
-    color:whitesmoke
-}
+  color: whitesmoke; }
 
 .jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
-}
-
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  color: white; }
 
 .row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge #d7e2f5;
-    min-height: 200px;
-}
+  padding: 50px 0;
+  border-bottom: 1px ridge #d7e2f5;
+  min-height: 200px; }
 
 .navbar {
-    background-image: linear-gradient(to right, #8541c9c7, skyblue, whitesmoke);
-}
+  background-image: linear-gradient(to right, #8541c9c7, skyblue, whitesmoke); }
 
 /* for the hamburger icon in the navbar */
-.navbar-toggler{
-    background-image: url("ddown.svg");
-}
+.navbar-toggler {
+  background-image: url("ddown.svg"); }
 
 /*color match to middle blue from jumbotron*/
-.jumboblue{
-    background-color: #3046C5 ;
-}
+.jumboblue {
+  background-color: #3046C5; }
 
 .mainfoot {
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
-}
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0; }
 
 /* to colormatch the lnks in the footer */
-.ftrlink{
-    color:#3046C5
-}
+.ftrlink {
+  color: #3046C5; }
 
 /* change the hover color for button links */
-.btn-link:hover{
-    color:plum;
-    text-decoration: none;
-}
+.btn-link:hover {
+  color: plum;
+  text-decoration: none; }
 
 /* colormatch the buttons and links */
-.cbuttons{
-    color: #3046C5;
-}
+.cbuttons {
+  color: #3046C5; }
 
 /* to make the submit form look better (I changed the body font) */
-.form-control{
-    margin-top: 2.5%;
-}
+.form-control {
+  margin-top: 2.5%; }
 
 /* styling for icons in navbar */
-.inav{
-    margin: 5px ;
-}
+.inav {
+  margin: 5px; }
 
-.inav:hover{
-    transform: translateY(-2px);
-    box-shadow: 0 10px 20px #00000042;
-}
+.inav:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px #00000042; }
 
-.navbarlogo{
-    margin-right: 1%;
-    margin-left: 0%;
-    padding-left: 0%;
-}
+.navbarlogo {
+  margin-right: 1%;
+  margin-left: 0%;
+  padding-left: 0%; }
 
 /* styling for icons in footer */
-.ifoot:hover{
-    transform: translateY(-1.5px);
-}
+.ifoot:hover {
+  transform: translateY(-1.5px); }
 
 /*header color for facts n figures tables*/
-.factsfigures{
-    background-color: #cec8ff96 ;
-}
+.factsfigures {
+  background-color: #cec8ff96; }
 
 /*for the reserve campsite button in the header pn homepage*/
-.jumbobtn:hover{
-    transform: translateY(-2.5px);
-    box-shadow: 0 10px 20px #00000042;
-}
+.jumbobtn:hover {
+  transform: translateY(-2.5px);
+  box-shadow: 0 10px 20px #00000042; }
 
-.jumbobtn:active{
-    transform: translateY(-.5px);
-    box-shadow: 0 5px 10px #00000033;
-    border: none;
-}
+.jumbobtn:active {
+  transform: translateY(-0.5px);
+  box-shadow: 0 5px 10px #00000033;
+  border: none; }
 
-.nav-link{
-    color: black;
-}
+.nav-link {
+  color: black; }
 
 /*for the modal cancel button*/
-.cancelbtn{
-    background-color:slategrey;
-    border: none;
-    border-radius: 5px;
-    font-family: "Lobster", cursive;
-    color: white;
-    padding: 1% 2%;
-    text-decoration: none;
-    margin: 0;
-    cursor: pointer;
-}
+.cancelbtn {
+  background-color: slategrey;
+  border: none;
+  border-radius: 5px;
+  font-family: "Lobster", cursive;
+  color: white;
+  padding: 1% 2%;
+  text-decoration: none;
+  margin: 0;
+  cursor: pointer; }
 
-.cancelbtn:hover{
-    transform: translateY(-3.5px);
-    box-shadow: 0 10px 20px #00000042;
-    background-color: plum;
-}
+.cancelbtn:hover {
+  transform: translateY(-3.5px);
+  box-shadow: 0 10px 20px #00000042;
+  background-color: plum; }
 
 /*carousel styling*/
-.carousel-caption{
-    background-color: rgba(0, 0, 0, 0.25);
-}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.25); }
 
-.carousel{
-    box-shadow: 0px 15px 15px #000000ce;
-}
+.carousel {
+  box-shadow: 0px 15px 15px #000000ce; }
 
-.imgshadow{
-    box-shadow:rgba(0, 0, 0, 0.411) 0 15px 15px;
-}
+.imgshadow {
+  box-shadow: rgba(0, 0, 0, 0.411) 0 15px 15px; }
 
-#areaCode{
-    margin-top: 7%;
-}
+#areaCode {
+  margin-top: 7%; }
 
 /* the about us header was too close to the breadcrumbs */
-#abtus{
-    padding-top: 1.5% ;
-}
+#abtus {
+  padding-top: 1.5%; }
 
-.siteTent{
-    background-color: rgb(35, 117, 24);
-    border-color: rgb(35, 117, 24);
-    color: white;
-}
+.siteTent {
+  background-color: #237518;
+  border-color: #237518;
+  color: white; }
 
+.siteRV {
+  background-color: #65abec;
+  border-color: #65abec;
+  color: white; }
 
-.siteRV{
-    background-color: rgb(101, 171, 236);
-    border-color: rgb(101, 171, 236);
-    color:white;
-}
-
+/*carousel buttons*/
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
