@@ -167,7 +167,7 @@ button[type=submit]:active {
   margin-top: 7%; }
 
 /* the about us header was too close to the breadcrumbs */
-#abtus {
+.abtus {
   padding-top: 1.5%; }
 
 .siteTent {
