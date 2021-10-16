@@ -33,7 +33,7 @@
                     </div>
                     <div class="col-md-4 col-xl-2 text-right mt-4">
                         <!--data-placement and data-html are not working for some reason-->
-                        <span data-toggle="modal" data-target="#reserveModal">
+                        <span id="reserveButton">
                             <a role="button" class="btn btn-lg btn-info text-nowrap jumbobtn" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Or call us at <br /><strong>1-206-555-1234</strong>">Reserve Campsite</a>
                         </span>
                     
@@ -42,11 +42,11 @@
             </div>
         </header>
 
-        <!--this is the reserve modal-->
+        <!--this is the reservation modal-->
         <div id="reserveModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
-                    <div class="modal-header bg-info text-white">
+                    <div class="modal-header">
                         <h3 class="modal-title">Reserve a Campsite</h3>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
@@ -115,7 +115,7 @@
                         <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg inav"></i>Contact</a></li>
                     </ul>
                     <span class="navbar-text ml-auto">
-                        <a role="button" data-toggle="modal" data-target="#loginModal">
+                        <a role="button" id="loginButton">
                             <i class="fa fa-sign-in"></i> Login
                         </a>
                     </span>
@@ -123,6 +123,7 @@
             </div>
         </nav>
 
+        <!--this is the login modal-->
         <div id="loginModal" class="modal fade" role="dialog">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
